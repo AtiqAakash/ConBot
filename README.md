@@ -55,7 +55,7 @@ If you encounter any issues during the setup process, you might come across miss
    .\conbot.ps1
 
 ## SITL FMS
-For slecting the simulation type in SITL, use this [Tool](https://github.com/AtiqAakash/SITL-FMS).
+For slecting the simulation type in SITL, rather than doing it manually every time, use this [Tool](https://github.com/AtiqAakash/SITL-FMS).
 
 Contributing
 Contributions are welcome! If you have any improvements or bug fixes, please submit a pull request.
