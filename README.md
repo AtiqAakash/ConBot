@@ -15,14 +15,6 @@ Before running ConBot, ensure that you meet the following prerequisites:
 
 ## Getting Started
 
-1. Clone the Repository
-
-   ```powershell
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
-
-Run ConBot
-
 Execute the PowerShell script with administrative privileges:
 
 powershell
