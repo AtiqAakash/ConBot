@@ -54,6 +54,28 @@ If you encounter any issues during the setup process, you might come across miss
    ```powershell
    .\conbot.ps1
 
+
+## Troubleshooting
+
+### PowerShell Script Execution Restrictions
+
+If you encounter issues with running PowerShell scripts due to execution restrictions, follow these steps:
+
+1. **Unblock ConBot.ps1 File**:
+   - Right-click on the `ConBot.ps1` file and select "Properties."
+   - In the Properties window, check the "Unblock" box if it's present.
+   - Click "Apply" and then "OK."
+
+2. **Set Execution Policy**:
+   - Open PowerShell with administrative privileges.
+   - Paste the following command and press Enter:
+     ```powershell
+     Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+     ```
+   - When prompted, type `Y` and press Enter to confirm the change for the current user.
+
+Once you've completed these steps, retry running ConBot by executing the PowerShell script.
+
 Contributing
 Contributions are welcome! If you have any improvements or bug fixes, please submit a pull request.
 
