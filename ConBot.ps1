@@ -4,7 +4,7 @@ Write-Output "                                                 RA - Configurator
 Write-Output ""
 Write-Output "                                                    Developed By Atiq"
 Write-Output ""
-Write-Output "                                             Now sit back and have a coffee!"
+Write-Output "                                             Now sit back and grab a coffee!"
 Write-Output ""
 Write-Output ""
 
@@ -33,7 +33,7 @@ Start-Process -wait -FilePath "C:\cygwin64\bin\bash" -ArgumentList "--login -i -
 Start-Process -wait -FilePath "C:\cygwin64\bin\bash" -ArgumentList "--login -i -c 'ln -sf /usr/bin/pip3.9 /usr/bin/pip'"
 
 Write-Output "Downloading extra Python packages (6/10)"
-Start-Process -wait -FilePath "C:\cygwin64\bin\bash" -ArgumentList "--login -i -c 'pip3 install empy pyserial pymavlink intelhex dronecan pexpect'"
+Start-Process -wait -FilePath "C:\cygwin64\bin\bash" -ArgumentList "--login -i -c 'pip3 install empy==3.3.4 pyserial pymavlink intelhex dronecan pexpect'"
 
 Write-Output "Installing ARM GCC Compiler 10-2020-Q4-Major (7/10)"
 & $PSScriptRoot\gcc-arm-none-eabi-10-2020-q4-major-win32.exe /S /P /R
