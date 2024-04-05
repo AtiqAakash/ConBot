@@ -70,10 +70,9 @@ If you encounter issues with running PowerShell scripts due to execution restric
     - Download the necessary DLL files from [this repository](https://github.com/AtiqAakash/ConBot).
     - Place the downloaded DLL files in the `C:\Windows\System32\` directory.
     - Re-run ConBot by executing the PowerShell script:
-
-   ```powershell
-   .\ConBot.ps1
-   ```
+      ```powershell
+      .\ConBot.ps1
+      ```
 
 
 ## Contributing
