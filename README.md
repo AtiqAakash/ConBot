@@ -19,7 +19,7 @@ Execute the PowerShell script with administrative privileges:
 
 powershell
 Copy code
-.\conbot.ps1
+.\ConBot.ps1
 
 
 Follow on-screen prompts and wait for the script to complete.
