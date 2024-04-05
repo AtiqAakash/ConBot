@@ -78,13 +78,13 @@ If you encounter issues with running PowerShell scripts due to execution restric
    ```
 
 
-### Contributing
+## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, please submit a pull request.
 
-### License
+## License
 This project is licensed under the MIT License.
 
-### Contact
+## Contact
 For questions or support, please contact us at aakash.unipune@gmail.com.
 
 
