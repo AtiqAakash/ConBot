@@ -5,7 +5,7 @@
 
 ## Overview
 
-ConBot is a PowerShell script designed to automate the configuration of a Windows operating system for UAV development and simulation in Ardupilot environment. It performs the installation and configuration of essential tools such as Python, MAVProxy, QGroundControl, Cygwin, Arm GCC compiler, and sets up the ArduPilot repository.
+ConBot is a PowerShell script designed to automate the configuration of a Windows operating system for UAV development and simulation in Ardupilot environment. It performs the installation and configuration of essential tools such as Python, Mission Planner, MAVProxy, QGroundControl, Cygwin, Arm GCC compiler, and sets up the ArduPilot repository.
 
 ## Prerequisites
 
