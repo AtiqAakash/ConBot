@@ -31,6 +31,8 @@ Follow on-screen prompts and wait for the script to complete.
 - Installs MAVProxy for communication with ArduPilot vehicles.
 
 - Installs QGroundControl, a ground control station for ArduPilot.
+  
+- Installs Mission Planner for configuring system.
 
 - Installs Cygwin, providing a large collection of GNU and Open Source tools.
 
