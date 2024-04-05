@@ -46,18 +46,7 @@ Follow on-screen prompts and wait for the script to complete.
 
 ## Troubleshooting
 
-If you encounter any issues during the setup process, you might come across missing DLL errors. If this happens, follow these steps to resolve the issue:
-
-1. Download the necessary DLL files from [this repository](https://github.com/AtiqAakash/ConBot).
-2. Place the downloaded DLL files in the `C:\Windows\System32\` directory.
-
-3. Re-run ConBot by executing the PowerShell script:
-
-   ```powershell
-   .\conbot.ps1
-
-
-## Troubleshooting
+Once you've completed these steps, retry running ConBot by executing the PowerShell script.
 
 ### PowerShell Script Execution Restrictions
 
@@ -76,15 +65,25 @@ If you encounter issues with running PowerShell scripts due to execution restric
      ```
    - When prompted, type `Y` and press Enter to confirm the change for the current user.
 
-Once you've completed these steps, retry running ConBot by executing the PowerShell script.
 
-Contributing
+3. **Missing DLLs**:
+  If you encounter any issues during the setup process, you might come across missing DLL errors. If this happens, follow these steps to resolve the issue:
+
+  1. Download the necessary DLL files from [this repository](https://github.com/AtiqAakash/ConBot).
+  2. Place the downloaded DLL files in the `C:\Windows\System32\` directory.
+  3. Re-run ConBot by executing the PowerShell script:
+
+   ```powershell
+   .\ConBot.ps1
+
+
+### Contributing
 Contributions are welcome! If you have any improvements or bug fixes, please submit a pull request.
 
-License
+### License
 This project is licensed under the MIT License.
 
-Contact
+### Contact
 For questions or support, please contact us at aakash.unipune@gmail.com.
 
 
