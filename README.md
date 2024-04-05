@@ -17,9 +17,9 @@ Before running ConBot, ensure that you meet the following prerequisites:
 
 Execute the PowerShell script with administrative privileges:
 
-powershell
-Copy code
+```powershell
 .\ConBot.ps1
+```
 
 
 Follow on-screen prompts and wait for the script to complete.
@@ -75,6 +75,7 @@ If you encounter issues with running PowerShell scripts due to execution restric
 
    ```powershell
    .\ConBot.ps1
+   ```
 
 
 ### Contributing
