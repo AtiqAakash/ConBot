@@ -64,13 +64,12 @@ If you encounter issues with running PowerShell scripts due to execution restric
      Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
      ```
    - When prompted, type `Y` and press Enter to confirm the change for the current user.
-     
-4. **Missing DLLs**:
-  If you encounter any issues during the setup process, you might come across missing DLL errors. If this happens, follow these steps to resolve the issue:
 
-  1. Download the necessary DLL files from [this repository](https://github.com/AtiqAakash/ConBot).
-  2. Place the downloaded DLL files in the `C:\Windows\System32\` directory.
-  3. Re-run ConBot by executing the PowerShell script:
+3. **Missing DLLs**:
+   If you encounter any issues during the setup process, you might come across missing DLL errors. If this happens, follow these steps to resolve the issue:
+    - Download the necessary DLL files from [this repository](https://github.com/AtiqAakash/ConBot).
+    - Place the downloaded DLL files in the `C:\Windows\System32\` directory.
+    - Re-run ConBot by executing the PowerShell script:
 
    ```powershell
    .\ConBot.ps1
@@ -85,11 +84,3 @@ This project is licensed under the MIT License.
 
 ## Contact
 For questions or support, please contact us at aakash.unipune@gmail.com.
-
-
-
-
-
-
-
-
