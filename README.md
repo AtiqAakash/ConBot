@@ -64,9 +64,8 @@ If you encounter issues with running PowerShell scripts due to execution restric
      Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
      ```
    - When prompted, type `Y` and press Enter to confirm the change for the current user.
-
-
-3. **Missing DLLs**:
+     
+4. **Missing DLLs**:
   If you encounter any issues during the setup process, you might come across missing DLL errors. If this happens, follow these steps to resolve the issue:
 
   1. Download the necessary DLL files from [this repository](https://github.com/AtiqAakash/ConBot).
